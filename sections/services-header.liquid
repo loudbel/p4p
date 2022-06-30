@@ -1,4 +1,9 @@
-<div class="header-section">
+<div class="header-section" 
+     style="
+            background-image:url('{{ section.settings.bg-image }}');
+            background-color:{{ section.settings.bgcolor}};
+            ">
+  
 <h1 class="header-h1">{{ section.settings.tit}}</h1>
 <p>{{ section.settings.desc}}</p>
 </div>
@@ -52,9 +57,6 @@
 {% endschema %}
 
 {% stylesheet %}
-.header-section{
-background-color:{{ section.settings.bgcolor}};
-}
 {% endstylesheet %}
 
 {% javascript %}
