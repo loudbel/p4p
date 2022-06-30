@@ -6,8 +6,9 @@
         "tit": "WELCOME TO PURELY4PAWS",
         "desc": "<p>The place for people who love pets with the paws.<\/p>",
         "bgcolor": "#01b2c5",
-        "bgimage": "shopify:\/\/shop_images\/bg-services-header.png",
-        "shape": "shopify:\/\/shop_images\/shape-header1.png"
+        "bgimage": "shopify:\/\/shop_images\/bg-header-home.png",
+        "shape": "shopify:\/\/shop_images\/shape-header1.png",
+        "bottomimg": "shopify:\/\/shop_images\/head.png"
       }
     }
   },
