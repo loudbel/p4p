@@ -180,6 +180,13 @@
         "settings": {
           "color_scheme": "background-1"
         }
+      },
+      "services-header": {
+        "type": "services-header",
+        "settings": {
+          "stitle": "My title",
+          "sdescr": "<p>The descroption<\/p>"
+        }
       }
     },
     "content_for_index": [
