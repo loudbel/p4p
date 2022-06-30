@@ -201,7 +201,8 @@
         ],
         "settings": {
           "tit": "head",
-          "desc": "<p>description<\/p>"
+          "desc": "<p>description<\/p>",
+          "bgcolor": "#01b2c5"
         }
       }
     },
