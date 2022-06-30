@@ -1,6 +1,6 @@
 <div class="header-section" 
      style="
-            background-image:url('{{ section.settings.bg-image }}');
+            background-image:url('{{ section.settings.bgimage | image_url }}');
             background-color:{{ section.settings.bgcolor}};
             ">
   
@@ -30,7 +30,7 @@
                   },
                   {
                     "type": "image_picker",
-                    "id": "bg-image",
+                    "id": "bgimage",
                     "label": "Custom Background Image"
                   }
 				],
