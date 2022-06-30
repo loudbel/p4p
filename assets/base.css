@@ -2991,3 +2991,13 @@ details-disclosure > details {
     font-weight: 700;
     color: #323232;
   }
+
+  .shape-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 999;
+    margin-top: 0px;
+    max-height: 160px;
+    left: 0px;
+  }
