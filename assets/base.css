@@ -2965,3 +2965,14 @@ details-disclosure > details {
     background-color: var(--button-hover-background);
       color: white;
 }
+  
+  /* start custom */
+  /* headers */
+  .header-section{
+  	width:100%;
+    height: auto;
+    min-height: 80vh;
+    display: flex;
+    direction: columns;
+    
+  }
