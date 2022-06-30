@@ -1,4 +1,4 @@
-<div class="header-section" style="background-color:{{ section.settings.bgcolor}};">
+<div class="header-section">
 <h1 class="header-h1">{{ section.settings.tit}}</h1>
 <p>{{ section.settings.desc}}</p>
 </div>
@@ -52,6 +52,9 @@
 {% endschema %}
 
 {% stylesheet %}
+.header-section{
+background-color:{{ section.settings.bgcolor}};
+}
 {% endstylesheet %}
 
 {% javascript %}
