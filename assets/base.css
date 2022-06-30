@@ -2986,12 +2986,17 @@ details-disclosure > details {
     
   }
   .header-h1{
-  	    font-family: 'Montserrat';
+  	font-family: 'Montserrat';
     font-size: 50px;
     font-weight: 700;
     color: #323232;
   }
-
+  .header-h2{
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 400;
+    color: #062a2f;
+  }
   .shape-bottom{
     width: 100%;
     position: absolute;

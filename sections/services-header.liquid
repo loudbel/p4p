@@ -5,8 +5,9 @@
             ">
   
 <h1 class="header-h1">{{ section.settings.tit}}</h1>
-<p>{{ section.settings.desc}}</p>
+<h2  class="header-h2">{{ section.settings.desc}}</h2>
 <img class="shape-bottom" src="{{ section.settings.shape | image_url }}">
+<img class="shape-bottom" src="{{ section.settings.bottomimg | image_url }}">
 </div>
 
 {% schema %}
@@ -39,6 +40,11 @@
                     "type": "image_picker",
                     "id": "shape",
                     "label": "Shape image"
+                  },
+                  {
+                    "type": "image_picker",
+                    "id": "bottomimg",
+                    "label": "Bottom images image"
                   }
 				],
 		"blocks": [
