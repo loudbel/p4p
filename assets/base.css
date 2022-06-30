@@ -3006,3 +3006,11 @@ details-disclosure > details {
     max-height: 160px;
     left: 0px;
   }
+
+  .bottom-image{
+    position: absolute;
+    bottom: -4%;
+    width: 70%;
+    left: auto;
+    right: auto;
+  }
