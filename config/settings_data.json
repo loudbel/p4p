@@ -183,6 +183,22 @@
       },
       "services-header": {
         "type": "services-header",
+        "blocks": {
+          "6d7a08bb-92e7-45a6-84e0-791ce6c9772f": {
+            "type": "image",
+            "settings": {
+            }
+          },
+          "a1657755-9ea1-4884-89b7-38050c42fb95": {
+            "type": "image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "6d7a08bb-92e7-45a6-84e0-791ce6c9772f",
+          "a1657755-9ea1-4884-89b7-38050c42fb95"
+        ],
         "settings": {
           "tit": "head",
           "desc": "<p>description<\/p>"
