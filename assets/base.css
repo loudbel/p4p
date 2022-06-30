@@ -2977,3 +2977,9 @@ details-disclosure > details {
     align-items: center;
     
   }
+  .header-h1{
+  	    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 700;
+    color: #323232;
+  }
